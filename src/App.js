@@ -1,7 +1,11 @@
 import { useCallback, useEffect, useState } from "react";
 
 /*
+  instructions: https://tns4lpgmziiypnxxzel5ss5nyu0nftol.lambda-url.us-east-1.on.aws/ramp-challenge-instructions/
+  site to get url from: https://tns4lpgmziiypnxxzel5ss5nyu0nftol.lambda-url.us-east-1.on.aws/challenge
+
   =============== Script used for getting the URL ===============
+
   I figured the best way for me to do this was going to be
   grabbing all the elements whose className included 'value'.
   From there, I knew it needed to match the pattern, so I created
